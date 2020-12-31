@@ -1,0 +1,110 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Fredoka One', cursive;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav{
+  background-color: white;
+}
+
+button{
+
+    bottom: 5px;
+}
+/** HEADER END **/
+
+.container p{
+  height: 10000px;
+  background-color: #ededed;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+  #collapsable-nav{
+  background-color: grey;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #collapsable-nav{
+  background-color: grey;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ #collapsable-nav{
+  background-color: grey;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #header-nav {
+  padding-bottom: 0px;
+}
+}
+
+
+
